@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const Items = props => {
   const { total } = props;
   return (
-    <h1 >
+    <h1>
       Number:
       {total}
     </h1>
