@@ -4,9 +4,9 @@ import Display from './Display';
 
 export default function App() {
   return (
-    <div>
+    <>
       <Display />
       <ButtonPanel />
-    </div>
+    </>
   );
 }
