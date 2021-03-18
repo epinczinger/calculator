@@ -52,7 +52,7 @@ To set this project up locally, follow these simple instructions:
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/epinczinger/calculator/issues).
 
 ## Show your support
 
@@ -64,4 +64,4 @@ To my coding partner: Sergio Obolevich
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
