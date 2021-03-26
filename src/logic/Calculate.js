@@ -1,6 +1,6 @@
-import operate from './operate';
+import operate from './Operate';
 
-const calculate = (dataObject, buttonName) => {
+const Calculate = (dataObject, buttonName) => {
   const { total, next, operation } = dataObject;
 
   if (buttonName === '+/-') {
@@ -40,4 +40,4 @@ const calculate = (dataObject, buttonName) => {
   };
 };
 
-export default calculate;
+export default Calculate;
