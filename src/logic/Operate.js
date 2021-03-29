@@ -1,9 +1,9 @@
 import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
-  const num1 = new Big(numberOne);
-  const num2 = new Big(numberTwo);
-  let total;
+  const num1 = numberOne == null ? new Big('0') : new Big(numberOne);
+  const num2 = numberTwo == null ? new Big('0') : new Big(numberTwo);
+  let total = 0;
 
   switch (operation) {
     case '+':
@@ -12,7 +12,7 @@ const operate = (numberOne, numberTwo, operation) => {
     case '-':
       total = num1.minus(num2);
       break;
-    case '*':
+    case 'x':
       total = num1.times(num2);
       break;
     case '÷':
@@ -22,7 +22,7 @@ const operate = (numberOne, numberTwo, operation) => {
       total = num1.div(100);
       break;
     default:
-      total = 'something';
+      total = num1;
   }
 
   return total;

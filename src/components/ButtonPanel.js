@@ -35,7 +35,7 @@ export default function ButtonPanel(props) {
           <Button clickHandler={() => props.clickHandler('9')} name="9" />
         </div>
         <div className={yellowButton}>
-          <Button clickHandler={() => props.clickHandler('X')} name="X" />
+          <Button clickHandler={() => props.clickHandler('x')} name="x" />
         </div>
       </div>
       <div className="flex">
