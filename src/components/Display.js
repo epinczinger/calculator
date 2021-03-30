@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Display(props) {
+const Display = props => {
   let { next, total, operation } = props;
 
   if (next === null && total === null) {
@@ -19,7 +19,7 @@ export default function Display(props) {
       </h2>
     </div>
   );
-}
+};
 
 Display.defaultProps = {
   next: '0',
@@ -32,3 +32,5 @@ Display.propTypes = {
   total: PropTypes.string,
   operation: PropTypes.string,
 };
+
+export default Display;

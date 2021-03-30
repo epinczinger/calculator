@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
-export default function ButtonPanel(props) {
+const ButtonPanel = props => {
   const blueButton = 'bg-blue-600 hover:bg-blue-700 w-1/4 p-5 flex justify-center border rounded border-gray-800';
   const greenButton = 'bg-green-700 hover:bg-green-800 w-1/4 p-5 flex justify-center border rounded border-gray-800';
   const greenLgButton = 'bg-green-700 hover:bg-green-800 w-1/2 p-5 flex justify-center border rounded border-gray-800';
@@ -79,8 +79,10 @@ export default function ButtonPanel(props) {
       </div>
     </div>
   );
-}
+};
 
 ButtonPanel.propTypes = {
   clickHandler: PropTypes.func.isRequired,
 };
+
+export default ButtonPanel;
