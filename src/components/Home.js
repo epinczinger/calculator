@@ -2,8 +2,8 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className="text-center px-2 text-gray-800">
-      <h1 className="py-4 text-lg font-bold animate-pulse">
+    <div className="text-center px-2 text-gray-800 sm:animate-pulse">
+      <h1 className="py-4 text-lg font-bold">
         Welcome to
         {' '}
         <span className="text-yellow-400">Math-magicians</span>
