@@ -3,8 +3,12 @@ import React from 'react';
 function Home() {
   return (
     <div className="text-center px-2 text-gray-800">
-      <h1 className="py-4 text-lg font-bold">Welcome to Math-magicians!</h1>
-      <p>
+      <h1 className="py-4 text-lg font-bold animate-pulse">
+        Welcome to
+        {' '}
+        <span className="text-yellow-400">Math-magicians</span>
+      </h1>
+      <p className="">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

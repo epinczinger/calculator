@@ -18,8 +18,10 @@ const Calculator = () => {
 
   return (
     <>
-      <div className="flex flex-col h-full px-3">
-        <h1 className="text-gray-800 font-bold text-xl py-3">Let`s do some Maths</h1>
+      <div className="flex flex-col px-3">
+        <h1 className="text-gray-800 font-bold text-xl py-3 animate-pulse">
+          Let`s do some Maths
+        </h1>
         <div className="mx-auto bg-gray-800">
           <Display total={total} next={next} operation={operation} />
           <ButtonPanel clickHandler={handleClick} />
