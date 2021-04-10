@@ -18,9 +18,9 @@ const Calculator = () => {
 
   return (
     <>
-      <div className="flex justify-around bg-calculator bg-cover bg-center bg-opacity-70 h-full">
-        <h1 className="text-blue-700 text-3xl mx-4">Let`s do some Maths</h1>
-        <div className="flex-column items-center bg-gray-800 justify-center  w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 m-auto">
+      <div className="flex flex-col h-full px-3">
+        <h1 className="text-gray-800 font-bold text-xl py-3">Let`s do some Maths</h1>
+        <div className="mx-auto bg-gray-800">
           <Display total={total} next={next} operation={operation} />
           <ButtonPanel clickHandler={handleClick} />
         </div>

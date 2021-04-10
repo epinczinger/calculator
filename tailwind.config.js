@@ -5,10 +5,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
-        calculator: "url('/src/calculatorbg.jpeg')",
-        quote: "url('/src/calculatorquote.jpeg')",
-      }),
     },
     variants: {
       extend: {},
