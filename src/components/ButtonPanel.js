@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 const ButtonPanel = props => {
-  const blueButton = 'bg-blue-600 bg-opacity-60 hover:bg-blue-700 w-1/4 p-5 flex justify-center border rounded border-gray-800';
-  const greenButton = 'bg-green-700 hover:bg-green-800 w-1/4 p-5 flex justify-center border rounded border-gray-800';
-  const greenLgButton = 'bg-green-700 hover:bg-green-800 w-1/2 p-5 flex justify-center border rounded border-gray-800';
-  const yellowButton = 'bg-yellow-500 hover:bg-yellow-600 w-1/4 p-5 flex justify-center border rounded border-gray-800';
+  const blueButton = 'bg-blue-600 bg-opacity-60 hover:bg-blue-700 w-1/4 p-4 flex justify-center border rounded border-gray-800';
+  const greenButton = 'bg-green-700 hover:bg-green-800 w-1/4 p-4 flex justify-center border rounded border-gray-800';
+  const greenLgButton = 'bg-green-700 hover:bg-green-800 w-1/2 p-4 flex justify-center border rounded border-gray-800';
+  const yellowButton = 'bg-yellow-500 hover:bg-yellow-600 w-1/4 p-4 flex justify-center border rounded border-gray-800';
 
   return (
-    <div className="bg-gray-800 text-xl">
+    <div className="bg-gray-800 text-lg md:text-xl">
       <div className="flex">
         <div className={blueButton}>
           <Button clickHandler={() => props.clickHandler('AC')} name="AC" />

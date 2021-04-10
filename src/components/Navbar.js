@@ -12,17 +12,17 @@ function Navbar() {
 
   const menuLinks = (
     <>
-      <div className="px-3 py-2 hover:bg-gray-600">
+      <div className="px-3 py-2 hover:bg-gray-600 hover:text-yellow-400">
         <Link onClick={() => setToggleMobileMenu(false)} to="/">
           Home
         </Link>
       </div>
-      <div className="px-3 py-2 hover:bg-gray-600">
+      <div className="px-3 py-2 hover:bg-gray-600 hover:text-green-400">
         <Link onClick={() => setToggleMobileMenu(false)} to="/calculator">
           Calculator
         </Link>
       </div>
-      <div className="px-3 py-2 hover:bg-gray-600">
+      <div className="px-3 py-2 hover:bg-gray-600 hover:text-blue-400">
         <Link onClick={() => setToggleMobileMenu(false)} to="/quote">
           Quote
         </Link>
@@ -31,7 +31,7 @@ function Navbar() {
   );
 
   const mobileMenu = (
-    <div className="absolute w-screen h-screen bg-gray-700 text-gray-100 p-4">
+    <div className="absolute w-screen h-screen bg-gray-800 text-gray-100 p-4">
       <button
         type="button"
         onClick={handleToggleMobileMenu}
@@ -46,19 +46,17 @@ function Navbar() {
   );
 
   return (
-    <div className="flex justify-between md:text-lg bg-gray-700 text-gray-200">
+    <div className="flex justify-between min-h-11 md:text-lg bg-gray-700 text-gray-200">
       {toggleMobileMenu ? mobileMenu : null}
       <div className="flex justify-start hover:text-gray">
-        <div className=" px-3 py-2 hover:bg-gray-600">
+        <div className=" px-3 py-2 hover:bg-gray-600 hover:text-red-500">
           <Link to="/">Math-Magicians </Link>
         </div>
       </div>
-      <div className="sm:hidden flex justify-end text-xl pt-2 px-2">
+      <div className="sm:hidden flex justify-end text-xl p-2">
         {mobileMenuButton}
       </div>
-      <div className="hidden sm:flex">
-        {menuLinks}
-      </div>
+      <div className="hidden sm:flex">{menuLinks}</div>
     </div>
   );
 }

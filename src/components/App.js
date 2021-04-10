@@ -7,7 +7,7 @@ import Home from './Home';
 
 function App() {
   return (
-    <div className="bg-gray-200 max-h-screen box-border h-screen font-mono">
+    <div className="bg-gray-200 box-border h-screen font-mono">
       <Navbar />
       <Switch>
         <Route path="/calculator" component={Calculator} />
