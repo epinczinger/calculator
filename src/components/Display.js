@@ -13,7 +13,7 @@ const Display = props => {
     total = '';
   }
   return (
-    <div className="flex justify-end bg-gray-400 border-4 border-gray-800 rounded-md text-2xl lg-text-3xl p-2">
+    <div className="flex justify-end bg-gray-400 border-4 border-gray-800 rounded-md text-2xl lg-text-3xl px-2 py-3 ">
       <h2>
         {next || total }
       </h2>
