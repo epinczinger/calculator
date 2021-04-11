@@ -2,20 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Display = props => {
-  let { next, total, operation } = props;
+  const { next, total } = props;
 
-  if (next === null && total === null) {
-    next = '0';
-  }
-
-  if (operation === '=') {
-    operation = '';
-    total = '';
-  }
   return (
     <div className="flex justify-end bg-gray-400 border-4 border-gray-800 rounded-md text-2xl lg-text-3xl px-2 py-3 ">
-      <h2>
-        {next || total }
+      <h2 className="text-gray-700">
+        {next || total || 0}
       </h2>
     </div>
   );
@@ -23,14 +15,12 @@ const Display = props => {
 
 Display.defaultProps = {
   next: '0',
-  total: '0',
-  operation: '',
+  total: '',
 };
 
 Display.propTypes = {
   next: PropTypes.number,
   total: PropTypes.string,
-  operation: PropTypes.string,
 };
 
 export default Display;

@@ -21,41 +21,48 @@ const Calculate = (dataObject, buttonName) => {
     buttonName === '+'
     || buttonName === '-'
     || buttonName === 'x'
+    || buttonName === '÷'
+    || buttonName === '%'
   ) {
     return {
-      total: `${operate(next, total, operation)}`,
-      next: 0,
-      operation: buttonName,
-    };
-  }
-  if (buttonName === '÷') {
-    return {
-      total: `${operate(next, total, operation)}`,
-      next: '',
-      operation: buttonName,
-    };
-  }
-  if (buttonName === '%') {
-    return {
-      total: `${operate(next, total, operation)}`,
+      total: `${next}`,
       next: null,
       operation: buttonName,
     };
   }
   if (buttonName === '=') {
+    if (total === null) {
+      return { next, total, operation };
+    }
     return {
-      total: `${operate(next, total, operation)}`,
-      next: null,
+      total: `${operate(total, next, operation)}`,
+      next: `${operate(total, next, operation)}`,
       operation: null,
     };
   }
-
+  if (buttonName === '.') {
+    if (next === null) {
+      return {
+        next: `${0}${buttonName}`,
+        total,
+        operation,
+      };
+    }
+    if (!next.toString().includes('.')) {
+      return {
+        next: `${next}${buttonName}`,
+        total,
+        operation,
+      };
+    }
+  }
   if (next === null) {
     return {
       next: parseFloat(`${buttonName}`, 10),
+      total,
+      operation,
     };
   }
-
   return { next: parseFloat(`${next}${buttonName}`, 10), operation, total };
 };
 
