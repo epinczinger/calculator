@@ -31,7 +31,7 @@ function Navbar() {
   );
 
   const mobileMenu = (
-    <div className="absolute w-screen h-screen bg-gray-800 text-gray-100 p-4">
+    <div className="absolute w-screen sm:hidden h-screen bg-gray-800 text-gray-100 p-4">
       <button
         type="button"
         onClick={handleToggleMobileMenu}
@@ -39,21 +39,21 @@ function Navbar() {
       >
         x
       </button>
-      <div className="h-full flex flex-col w-11/12 pb-40 pt-10 px-5 text-5xl items-center justify-evenly">
+      <div className="h-full flex flex-col w-11/12 pb-40 pt-10 px-5 text-4xl mx-auto items-center justify-evenly">
         {menuLinks}
       </div>
     </div>
   );
 
   return (
-    <div className="flex justify-between min-h-11 md:text-lg bg-gray-700 text-gray-200">
+    <div className="flex justify-between h-12 sticky top-0 md:text-lg bg-gray-700 text-gray-200">
       {toggleMobileMenu ? mobileMenu : null}
       <div className="flex justify-start hover:text-gray">
-        <div className=" px-3 py-2 hover:bg-gray-600 hover:text-red-500">
+        <div className="px-3 py-2 hover:bg-gray-600 my-auto hover:text-red-500">
           <Link to="/">Math-Magicians </Link>
         </div>
       </div>
-      <div className="sm:hidden flex justify-end text-xl p-2">
+      <div className="sm:hidden flex justify-end text-xl p-2 my-auto">
         {mobileMenuButton}
       </div>
       <div className="hidden sm:flex">{menuLinks}</div>
