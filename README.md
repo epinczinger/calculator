@@ -1,7 +1,8 @@
-# Calculator - React
+# Math-Magicians Calculator - React
 
-This project is a standard calculator used for maths operations. Built with React
+This is a resposive calculator webpage used for maths operations. Built with React.
 
+![screenshot](https://imgur.com/wKzmGyG.gif)
 
 ## Live Link
 
@@ -12,6 +13,7 @@ Have a look at the [Live Link](https://calculating.herokuapp.com/)
 - JavaScript
 - React
 - Node Package Manager
+- Tailwind
 
 ## Getting Started
 
