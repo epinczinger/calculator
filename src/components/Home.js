@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className="text-center px-2 text-gray-800 sm:animate-pulse">
+    <div className="text-center px-2 text-gray-800 sm:animate-pulse max-w-md mx-auto">
       <h1 className="py-4 text-lg font-bold">
         Welcome to
         {' '}
