@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
   return (
     <div className="text-center px-2 text-gray-800 sm:animate-pulse max-w-md mx-auto">
-      <h1 className="py-4 text-lg font-bold">
+      <h1 className="py-4 text-lg lg:text-2xl font-bold">
         Welcome to
         {' '}
         <span className="text-yellow-400">Math-magicians</span>

@@ -3,7 +3,7 @@ import React from 'react';
 function Quote() {
   return (
     <div className="text-gray-800 font-bold flex flex-col justify-center p-2 max-w-md mx-auto">
-      <h3 className="text-xl text-center p-4 justify-self-start">
+      <h3 className="text-xl lg:text-2xl text-center p-4 justify-self-start">
         Qu
         <span className="text-blue-400">ot</span>
         e of
