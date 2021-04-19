@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Display renders as expected matching snapshot 1`] = `
+<div
+  className="flex justify-end tracking-tighter bg-gray-400 border-4 w-64 border-gray-800 rounded-md text-lg lg:w-auto lg:text-2xl px-2 py-3 "
+>
+  <h2
+    className="text-gray-700"
+  >
+    1
+  </h2>
+</div>
+`;

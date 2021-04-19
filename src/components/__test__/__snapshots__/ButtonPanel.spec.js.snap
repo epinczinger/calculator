@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonPannel component renders as expected matching snapshot 1`] = `
+<div
+  className="bg-gray-800 text-lg md:text-xl"
+>
+  <div
+    className="flex"
+  >
+    <div
+      className="bg-blue-700 hover:bg-blue-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+    </div>
+    <div
+      className="bg-blue-700 hover:bg-blue-800 w-1/4 flex justify-center border rounded border-gray-800 min-w-12"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+    </div>
+    <div
+      className="bg-blue-700 hover:bg-blue-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+    </div>
+    <div
+      className="bg-yellow-500 hover:bg-yellow-600 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+  </div>
+  <div
+    className="flex"
+  >
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+    </div>
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+    </div>
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+    </div>
+    <div
+      className="bg-yellow-500 hover:bg-yellow-600 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+  </div>
+  <div
+    className="flex"
+  >
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+    </div>
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+    </div>
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+    </div>
+    <div
+      className="bg-yellow-500 hover:bg-yellow-600 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+  </div>
+  <div
+    className="flex"
+  >
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+    </div>
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+    </div>
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+    </div>
+    <div
+      className="bg-yellow-500 hover:bg-yellow-600 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+  </div>
+  <div
+    className="flex"
+  >
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-32 h-16 lg:w-48 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+    </div>
+    <div
+      className="bg-green-700 hover:bg-green-800 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+    </div>
+    <div
+      className="bg-yellow-500 hover:bg-yellow-600 flex justify-center w-16 h-16 lg:w-24 lg:h-20 border rounded border-gray-800"
+    >
+      <button
+        className="w-full h-full"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
