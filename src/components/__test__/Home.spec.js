@@ -1,9 +1,9 @@
-import React from "react";
-import Home from "../Home";
-import renderer from "react-test-renderer";
+import React from 'react';
+import renderer from 'react-test-renderer';
+import Home from '../Home';
 
-describe("The Home", () => {
-  it("renders as expected matching snapshot", () => {
+describe('The Home', () => {
+  it('renders as expected matching snapshot', () => {
     const tree = renderer
       .create(<Home />)
       .toJSON();
