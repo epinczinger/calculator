@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Button renders as expected matching snapshot 1`] = `
+<button
+  className="w-full h-full"
+  onClick={[Function]}
+  type="button"
+>
+  AC
+</button>
+`;

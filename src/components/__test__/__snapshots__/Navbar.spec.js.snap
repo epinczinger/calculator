@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Navbar renders as expected matching snapshot 1`] = `
+<div
+  className="flex justify-between h-12 sticky top-0 md:text-lg bg-gray-700 text-gray-200"
+>
+  <div
+    className="flex justify-start hover:text-gray"
+  >
+    <div
+      className="px-3 py-2 hover:bg-gray-600 my-auto hover:text-red-500"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Math-Magicians 
+      </a>
+    </div>
+  </div>
+  <div
+    className="sm:hidden flex justify-end text-xl p-2 my-auto"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      ☰
+    </button>
+  </div>
+  <div
+    className="hidden sm:flex"
+  >
+    <div
+      className="px-3 py-2 hover:bg-gray-600 hover:text-yellow-400"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </div>
+    <div
+      className="px-3 py-2 hover:bg-gray-600 hover:text-green-400"
+    >
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </div>
+    <div
+      className="px-3 py-2 hover:bg-gray-600 hover:text-blue-400"
+    >
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </div>
+</div>
+`;

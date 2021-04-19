@@ -14,6 +14,7 @@ Have a look at the [Live Link](https://calculating.herokuapp.com/)
 - React
 - Node Package Manager
 - Tailwind
+- Jest
 
 ## Getting Started
 
@@ -40,6 +41,12 @@ To set this project up locally, follow these simple instructions:
 5. Congratulations! All necessary files have been installed. To run the website on your local server, just type 
 
 `npm start`
+
+### Testing
+
+To check all the tests you should write on the root folder:
+
+`jest`
 
 ## Author
 
